@@ -1,11 +1,7 @@
-#import "@preview/shiroa:0.1.0": *
-#import "@preview/typst-apollo:0.1.0": pages
-#import pages: *
-#import "@preview/shiroa:0.1.0": get-page-width, target, is-web-target, is-pdf-target, plain-text
-
+#import "/typ/template/pages.typ": *
 #import "@preview/unequivocal-ams:0.1.0": theorem, proof
 
-#show: project.with(
+#show: blog-page.with(
   title: "Test",
   authors: (
     (
